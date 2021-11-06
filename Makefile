@@ -5,7 +5,7 @@ default: build
 build: docker_build output
 release: docker_build docker_push output
 
-DOCKER_IMAGE ?= uzer/taskserver
+DOCKER_IMAGE ?= mshorty/taskserver
 BUILD_VCS_REF = $(strip $(shell git rev-parse --short HEAD))
 
 # APP version (Semver...)

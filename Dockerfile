@@ -7,7 +7,7 @@ ARG APP_VCS_URL="https://github.com/GothenburgBitFactory/taskserver.git"
 ARG APP_VERSION
 ARG BUILD_DATE
 ARG BUILD_VCS_REF
-ARG BUILD_VCS_URL="https://github.com/uZer/docker-taskserver"
+ARG BUILD_VCS_URL="https://github.com/mshorty/docker-taskserver"
 
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.description=$APP_DESCRIPTION \
